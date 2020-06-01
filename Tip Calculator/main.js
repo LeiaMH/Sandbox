@@ -5,6 +5,7 @@ function calculateTip(){
     let numberOfPeople = document.getElementById("people").value;
 
     let tipAmount = (billAmount * serviceQuality) / numberOfPeople;
-    document.getElementById("result").innerHTML = `TIP AMOUNT <span>£${tipAmount}</span> each`;
+    let roundedAmount = tipAmount.toFixed(2);
+    
+    document.getElementById("result").innerHTML = `TIP AMOUNT <span>£${roundedAmount}</span> each`;
 }
-

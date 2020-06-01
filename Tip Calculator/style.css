@@ -21,6 +21,7 @@ header{
 }
 
 form{
+    height: 80%;
     padding: 20vh 14px 14px 14px;
     color: #444;
     font-family: 'Roboto', sans-serif;
@@ -33,6 +34,7 @@ form div{
     padding: 14px 14px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -56,6 +58,7 @@ form div#calculate:hover{
 }
 
 input{
+    padding: 5px;
     height: 1.5rem;
     width: 170px;
     border: none;
@@ -70,6 +73,7 @@ input:focus{
 }
 
 select{
+    padding: 5px;
     height: 1.8rem;
     width: 170px;
     border: none;
@@ -78,6 +82,10 @@ select{
     box-shadow:none;
     outline:none;
     appearance: none;
+}
+select option{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 div p#result{
@@ -88,6 +96,10 @@ div p#result{
     align-items: center;
     flex-direction: column;
     width: 50px;
+}
+
+label{
+    padding: 5px;
 }
 
 span{
