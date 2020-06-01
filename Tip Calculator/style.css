@@ -98,6 +98,19 @@ div p#result{
     width: 50px;
 }
 
+div p#validation{
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(237, 62, 115);
+}
+
 label{
     padding: 5px;
 }

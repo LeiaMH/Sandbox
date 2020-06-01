@@ -26,7 +26,7 @@
     <label for="service">How was your service?</label>
     <br>
     <select id="service" name="service">
-        <option disabled selected value="0">-- Choose an Option --</option>
+        <option value="0" disabled selected>-- Choose an Option --</option>
         <option value="0.3">Outstanding (30%)</option>
         <option value="0.2">Great (20%)</option>
         <option value="0.15">Okay (15%)</option>
@@ -45,7 +45,8 @@
 </form>  
 
 <div>
-    <p id="result"></p>
+   <p id="result"></p>
+   <p id="validation"></p>
 </div>
 
 <script src="./main.js"></script>
