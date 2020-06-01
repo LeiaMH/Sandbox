@@ -4,7 +4,7 @@ function calculateTip(){
     let serviceQuality = document.getElementById("service").value;
     let numberOfPeople = document.getElementById("people").value;
 
-    if(isNaN(billAmount) || isNaN(numberOfPeople) || billAmount === ''){
+    if(isNaN(billAmount) || isNaN(numberOfPeople) || billAmount === '' || numberOfPeople === ''){
     return document.getElementById("validation").innerHTML = "Input invalid";
     }
 
