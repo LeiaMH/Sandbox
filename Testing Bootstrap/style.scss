@@ -1,0 +1,95 @@
+$title-font: 'IM Fell Double Pica', serif, 'Times New Roman', Times, serif;
+$signature-font: 'Mrs Saint Delafield', cursive, 'Times New Roman', Times, serif;
+$capital-font: 'Alegreya SC', serif, 'Times New Roman', Times, serif;
+$dark-color:rgb(51, 25, 25);
+$mid-color:maroon;
+$light-color:rgb(177, 60, 60);
+$dark-transp:rgba(51, 25, 25, .95);
+$mid-transp:rgba(128, 0, 0, .9);
+$light-transp:#b13c3ce6;
+
+body{
+    font-family: $title-font;
+    background-image: url(./img/stone-texture.jpg);
+    background-size: contain;
+}
+
+.title-container{
+display: flex;
+align-items: center;
+}
+
+section nav.navbar{
+    background-color:$dark-transp;
+    a{
+    text-decoration: none;
+    color:$mid-color;
+    text-shadow: 1px 1px 4px #000;
+    }
+}
+
+#shadowed {
+    -webkit-filter: drop-shadow(4px 4px 4px #000000);
+    filter: drop-shadow(4px 4px 4px #000);
+}
+
+h1{
+    padding: 0 30px;
+    margin: 0;
+    display: inline-block;
+    font-family: $title-font;
+    color:$mid-color;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h4 #motto{ 
+    position: absolute;
+    top: 76%;
+    left: 42%;
+    color:rgba(231,190,87, .4);
+    text-shadow: 1px 1px 6px #000;
+}
+
+section nav.navbar a.dropdown-item{
+    color: $dark-color;
+    text-shadow: none;
+}
+
+#welcome-section{
+    height: 80vh;
+    background-color:$mid-color;
+    img{
+        height: 80vh;
+        object-fit: cover;
+       }
+}
+
+.carousel-inner div{
+    font-family: $title-font;
+    color:rgba(165, 138, 69, 0.95);
+    text-shadow: 1px 1px 6px #000;
+    background-color: rgba(51, 25, 25, .5);
+    border-radius: 10px;
+    h5{
+    font-size: 2em;
+    }
+    p{
+    font-size: 1.5em;
+    }
+   
+}
+
+#main-section{
+    height: auto;
+    background-color:$mid-transp;
+    padding: 30px;
+}
+
+.card{
+    box-shadow: 4px 4px 8px #222;
+}
+
+section#footer{
+background-color: #fff;
+height: 20vh;
+}

@@ -1,0 +1,95 @@
+body {
+  font-family: "IM Fell Double Pica", serif, "Times New Roman", Times, serif;
+  background-image: url(./img/stone-texture.jpg);
+  background-size: contain;
+}
+
+.title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section nav.navbar {
+  background-color: rgba(51, 25, 25, 0.95);
+}
+
+section nav.navbar a {
+  text-decoration: none;
+  color: maroon;
+  text-shadow: 1px 1px 4px #000;
+}
+
+#shadowed {
+  -webkit-filter: drop-shadow(4px 4px 4px #000000);
+  filter: drop-shadow(4px 4px 4px #000);
+}
+
+h1 {
+  padding: 0 30px;
+  margin: 0;
+  display: inline-block;
+  font-family: "IM Fell Double Pica", serif, "Times New Roman", Times, serif;
+  color: maroon;
+  text-shadow: 2px 2px 4px #000;
+}
+
+h4 #motto {
+  position: absolute;
+  top: 76%;
+  left: 42%;
+  color: rgba(231, 190, 87, 0.4);
+  text-shadow: 1px 1px 6px #000;
+}
+
+section nav.navbar a.dropdown-item {
+  color: #331919;
+  text-shadow: none;
+}
+
+#welcome-section {
+  height: 80vh;
+  background-color: maroon;
+}
+
+#welcome-section img {
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-inner div {
+  font-family: "IM Fell Double Pica", serif, "Times New Roman", Times, serif;
+  color: rgba(165, 138, 69, 0.95);
+  text-shadow: 1px 1px 6px #000;
+  background-color: rgba(51, 25, 25, 0.5);
+  border-radius: 10px;
+}
+
+.carousel-inner div h5 {
+  font-size: 2em;
+}
+
+.carousel-inner div p {
+  font-size: 1.5em;
+}
+
+#main-section {
+  height: auto;
+  background-color: rgba(128, 0, 0, 0.9);
+  padding: 30px;
+}
+
+.card {
+  -webkit-box-shadow: 4px 4px 8px #222;
+          box-shadow: 4px 4px 8px #222;
+}
+
+section#footer {
+  background-color: #fff;
+  height: 20vh;
+}
+/*# sourceMappingURL=style.css.map */
