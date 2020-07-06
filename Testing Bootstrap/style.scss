@@ -2,7 +2,7 @@ $title-font: 'IM Fell Double Pica', serif, 'Times New Roman', Times, serif;
 $signature-font: 'Mrs Saint Delafield', cursive, 'Times New Roman', Times, serif;
 $capital-font: 'Alegreya SC', serif, 'Times New Roman', Times, serif;
 $dark-color:rgb(51, 25, 25);
-$mid-color:maroon;
+$mid-color:rgb(100, 0, 0);
 $light-color:rgb(177, 60, 60);
 $dark-transp:rgba(51, 25, 25, .95);
 $mid-transp:rgba(128, 0, 0, .9);
@@ -23,9 +23,13 @@ section nav.navbar{
     background-color:$dark-transp;
     a{
     text-decoration: none;
-    color:$mid-color;
+    color:rgba(246,210,134, .5);;
     text-shadow: 1px 1px 4px #000;
     }
+}
+
+#postnav{
+    box-shadow:4px 4px -8px #000000;   
 }
 
 #shadowed {
@@ -38,15 +42,17 @@ h1{
     margin: 0;
     display: inline-block;
     font-family: $title-font;
-    color:$mid-color;
+    color:rgba(246,210,134, .5);
     text-shadow: 2px 2px 4px #000;
 }
 
 h4 #motto{ 
+    font-family: $capital-font;
+    font-weight: 100;
     position: absolute;
     top: 76%;
-    left: 42%;
-    color:rgba(231,190,87, .4);
+    left: 40%;
+    color:rgba(246,210,134, .5);
     text-shadow: 1px 1px 6px #000;
 }
 
@@ -55,18 +61,30 @@ section nav.navbar a.dropdown-item{
     text-shadow: none;
 }
 
+button.search{
+    background-color: $dark-transp;
+    border-color:rgba(231,190,87, .4);
+    color: rgba(231,190,87, .4);
+}
+
+button.search:hover{
+    background-color: $mid-transp;
+    border-color:rgba(246,210,134, .95);
+    color: rgba(246,210,134, .95);
+}
+
 #welcome-section{
-    height: 80vh;
+    height: 78vh;
     background-color:$mid-color;
     img{
-        height: 80vh;
+        height: 78vh;
         object-fit: cover;
        }
 }
 
 .carousel-inner div{
     font-family: $title-font;
-    color:rgba(165, 138, 69, 0.95);
+    color:rgba(246,210,134, .95);
     text-shadow: 1px 1px 6px #000;
     background-color: rgba(51, 25, 25, .5);
     border-radius: 10px;
@@ -87,9 +105,14 @@ section nav.navbar a.dropdown-item{
 
 .card{
     box-shadow: 4px 4px 8px #222;
+    border-color: rgba(246,210,134, .5);
 }
 
 section#footer{
 background-color: #fff;
 height: 20vh;
+}
+
+a.icon i.fab:hover{
+color: rgb(246,210,134);
 }

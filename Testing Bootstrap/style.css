@@ -19,8 +19,13 @@ section nav.navbar {
 
 section nav.navbar a {
   text-decoration: none;
-  color: maroon;
+  color: rgba(246, 210, 134, 0.5);
   text-shadow: 1px 1px 4px #000;
+}
+
+#postnav {
+  -webkit-box-shadow: 4px 4px -8px #000000;
+          box-shadow: 4px 4px -8px #000000;
 }
 
 #shadowed {
@@ -33,15 +38,17 @@ h1 {
   margin: 0;
   display: inline-block;
   font-family: "IM Fell Double Pica", serif, "Times New Roman", Times, serif;
-  color: maroon;
+  color: rgba(246, 210, 134, 0.5);
   text-shadow: 2px 2px 4px #000;
 }
 
 h4 #motto {
+  font-family: "Alegreya SC", serif, "Times New Roman", Times, serif;
+  font-weight: 100;
   position: absolute;
   top: 76%;
-  left: 42%;
-  color: rgba(231, 190, 87, 0.4);
+  left: 40%;
+  color: rgba(246, 210, 134, 0.5);
   text-shadow: 1px 1px 6px #000;
 }
 
@@ -50,20 +57,32 @@ section nav.navbar a.dropdown-item {
   text-shadow: none;
 }
 
+button.search {
+  background-color: rgba(51, 25, 25, 0.95);
+  border-color: rgba(231, 190, 87, 0.4);
+  color: rgba(231, 190, 87, 0.4);
+}
+
+button.search:hover {
+  background-color: rgba(128, 0, 0, 0.9);
+  border-color: rgba(246, 210, 134, 0.95);
+  color: rgba(246, 210, 134, 0.95);
+}
+
 #welcome-section {
-  height: 80vh;
-  background-color: maroon;
+  height: 78vh;
+  background-color: #640000;
 }
 
 #welcome-section img {
-  height: 80vh;
+  height: 78vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .carousel-inner div {
   font-family: "IM Fell Double Pica", serif, "Times New Roman", Times, serif;
-  color: rgba(165, 138, 69, 0.95);
+  color: rgba(246, 210, 134, 0.95);
   text-shadow: 1px 1px 6px #000;
   background-color: rgba(51, 25, 25, 0.5);
   border-radius: 10px;
@@ -86,10 +105,15 @@ section nav.navbar a.dropdown-item {
 .card {
   -webkit-box-shadow: 4px 4px 8px #222;
           box-shadow: 4px 4px 8px #222;
+  border-color: rgba(246, 210, 134, 0.5);
 }
 
 section#footer {
   background-color: #fff;
   height: 20vh;
+}
+
+a.icon i.fab:hover {
+  color: #f6d286;
 }
 /*# sourceMappingURL=style.css.map */
