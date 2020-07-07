@@ -59,8 +59,8 @@ section nav.navbar a.dropdown-item {
 
 button.search {
   background-color: rgba(51, 25, 25, 0.95);
-  border-color: rgba(231, 190, 87, 0.4);
-  color: rgba(231, 190, 87, 0.4);
+  border-color: rgba(246, 210, 134, 0.5);
+  color: rgba(246, 210, 134, 0.5);
 }
 
 button.search:hover {
